@@ -1,0 +1,28 @@
+body{
+    background: #CCCCCC
+}
+p, .centralizar{
+	text-align:	center;
+} 
+em strong{
+		color: #FF0000;
+}		
+h1,h2{
+			color: #0000FF;
+	} 
+#banner {
+    width: 100%;
+}
+items{
+	font-style: italic;
+	list-style: none;
+}
+beneficios{
+	width: 50%;
+}
+ul{
+	display: inline-block;
+	width: 205;
+	margin-right: 15%;
+	vertical-align: top;
+}
