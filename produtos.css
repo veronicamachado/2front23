@@ -24,3 +24,20 @@ nav{
     float: right;
     margin-top: 70px;
 }
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos .preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+.produtos .desc{
+    font-size: 18px;
+}
