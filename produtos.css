@@ -12,10 +12,6 @@ nav li a{
     font-weight: bold;
     text-transform: uppercase;
 }
-nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
-}
 header{
     background: #bbb;
     padding: 20px 0;
@@ -23,6 +19,7 @@ header{
 .content{
     width: 940px;
     margin: 0 auto;
+    padding: 20px;
 }
 nav{
     float: right;
@@ -57,4 +54,10 @@ nav{
 }
 .produtos li:hover h2{
     font-size: 35px;
+}
+footer{
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+    color: #fff;
 }
