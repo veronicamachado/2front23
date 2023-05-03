@@ -1,10 +1,12 @@
 body{
     background-color: #f4f4f4;
 }
+
 nav li{
     display: inline-block;
     padding: 10px;
 }
+
 nav li a{
     text-decoration: none;
     color: #000;
@@ -12,19 +14,28 @@ nav li a{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+nav a:hover {
+    color:#c78c19;
+    text-decoration: underline;
+}
+
 header{
     background: #bbb;
     padding: 20px 0;
 }
+
 .content{
     width: 940px;
     margin: 0 auto;
     padding: 20px;
 }
+
 nav{
     float: right;
     margin-top: 70px;
 }
+
 .produtos li{
     display: inline-block;
     text-align: center;
@@ -35,29 +46,54 @@ nav{
     margin: 0 1%;
     padding: 30px 0;
 }
+
 .produtos li:hover{
     border-color: #c78c19;
 }
+
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
 }
+
 .produtos .preco{
     font-size: 22px;
     font-weight: bold;
 }
+
 .produtos .desc{
     font-size: 18px;
 }
+
 .produtos li:active{
     border-color: green;
 }
 .produtos li:hover h2{
     font-size: 35px;
 }
+
 footer{
     text-align: center;
     background: url("imagens/bg.jpg");
     padding: 40px 0;
     color: #fff;
+}
+
+form{
+    margin: 40px 0;
+}
+
+label{
+    font-size: 25px;
+    width: 100px;
+    display: inline-block;
+}
+input{
+    padding: 10px 25px;
+    width: 50%;
+}
+button{
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
 }
